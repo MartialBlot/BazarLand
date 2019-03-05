@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylePg1.css" />
+    <title>Outils - BazarLand</title>
+    <link rel="icon" type="image/png" href="favicon-32.png" />
+</head>
+<body>
+
+<style>
+    li { list-style: none ; }
+    .titlefont { font-size: 13px;}
+    .carousel { font-family: nancy; }
+    .carouselp { font-size: 32px; }
+    .carousel-caption {
+        bottom: 3rem;
+        z-index: 10;
+    }
+    .carousel-item {
+        height: 32rem;
+    }
+    .carousel-item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 35rem;
+    }
+</style>
+
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top rounded-bottom" style="background-color: #1a8cff">
+
+        <img  class="navbar-brand logo img-fluid ml-5 mb-2" src="rs/logo.png"  alt="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
+            <div class="navbar-nav navsecrion">
+                <a class="nav-item nav-link active" href="/index.html">Accueil |</a>
+                <a class="nav-item nav-link" href="/outils.html">Outils |</a>
+                <a class="nav-item nav-link" href="/musique.html">Musique |</a>
+                <a class="nav-item nav-link" href="/jardinage">Jardinage |</a>
+                <a class="nav-item nav-link" href="/informatique.html">Informatique |</a>
+                <a class="nav-item nav-link" href="/auto-moto">Auto/Moto |</a>
+                <a class="nav-item nav-link" href="/vetement">Vetements</a>
+
+                <button class="nav-item nav-link btn btn-primary ml-md-5" type="button" data-toggle="modal" data-target="#modal-lg">Contact</button>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="img-fluid" src="http://www.blogmodecamille.com/wp-content/uploads/2017/01/Quel-vetement-femme-pour-une-soiree-d-hiver.jpg" alt="image">
+            <div class="container">
+                <div class="carousel-caption text-center">
+                    <p class="carouselp">Profitez des avantages de notre carte</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="http://www.helenetm.fr/wp-content/uploads/2017/08/vetements.jpg" alt="image">
+            <div class="container">
+                <div class="carousel-caption text-center">
+                    <p class="carouselp">Profitez des avantages de notre carte</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src="https://www.omnisport-lyon.fr/img/cms/vetement-trail-running-magasin.jpg" alt="image">
+            <div class="container">
+                <div class="carousel-caption text-center">
+                    <p class="carouselp">Profitez des avantages de notre carte</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="container-fluid bg-light">
+    <div class="row">
+        <div class="col-md-2 col-xs-12 border-right rounded-right" style="background-color: #6ba3ff">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title mt-4 ml-2 pt-4">
+                            <a data-toggle="collapse" data-parent="#accordion" href="/index.html" class="text-light"><span class="glyphicon glyphicon-folder-close">
+                                </span>Accueil</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title ml-2 pt-4">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="text-light"><span class="glyphicon glyphicon-th">
+                                </span>Catégories</a>
+                        </h4>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <a href="" class="text-light"> Outils</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="" class="text-light">Musique</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="" class="text-light">Jadinage</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="" class="text-light">Informatique</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="" class="text-light">Auto/Moto</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="" class="text-light">Vêtements</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title ml-2 pt-4">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="text-light"><span class="glyphicon glyphicon-user">
+                                </span>Panier</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title ml-2 pt-4">
+                            <a data-toggle="collapse" data-parent="#accordion" href="/index.html" class="text-light"><span class="glyphicon glyphicon-user">
+                                </span>À propos</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 mb-4">
+
+            <div class="card-deck mt-4">
+
+                <div class="col-md-6 col-xl-3 mt-2">
+                <div class="card" style="background-color: #99ccff">
+                    <img class="card-img-top p-2" src="https://i2.cdscdn.com/pdt2/9/3/6/1/300x300/mp06804936/rw/pull-homme-en-maille-sport-col-rond-d-automne-vete.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center titlefont">Pull Homme en maille sport Col rond </h5>
+
+                        <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal">Acheter</button>
+                        <p class="pt-2 pl-3">20€</p>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title titlefont" id="exampleModalLabel">Pull Homme en maille sport Col rond  </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Pull, Sweat shirt, Sweat à capuche / Tissu style sweat doux au toucher / Bordures côtelées / Un ajustement décontracté qui est vrai à la taille / Manches longues simples / Coupe classique taillant normalement / Lavage en machine / Matière principale : 70% Coton 30% Polyester</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-md-6 col-xl-3 mt-2">
+                <div class="card" style="background-color: #99ccff">
+                    <img class="card-img-top p-2" src="https://i2.cdscdn.com/pdt2/5/5/4/1/300x300/mp03718554/rw/tommy-hilfiger-pull-pacific-homme-v-neck.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title titlefont text-center">TOMMY HILFIGER Pull col V Pacific</h5>
+
+                        <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal1">Acheter</button>
+                        <p class="pt-2 pl-3">15€</p>
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title titlefont" id="exampleModalLabel1">TOMMY HILFIGER Pull col V Pacific</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>100% Coton Regular Fit Pull</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-md-6 col-xl-3 mt-2">
+                <div class="card" style="background-color: #99ccff">
+                    <img class="card-img-top p-2" src="https://i2.cdscdn.com/pdt2/1/0/3/1/300x300/37704103/rw/sergio-tacchini-sweat-a-capuche-zion-homme-bla.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title titlefont text-center">SERGIO TACCHINI Sweat à capuche</h5>
+
+                        <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal2">Acheter</button>
+                        <p class="pt-2 pl-3">50€</p>
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title titlefont" id="exampleModalLabel2">SERGIO TACCHINI Sweat à capuche</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Blanc et Noir
+                                        60% Coton, 40% Polyester
+                                        Détail de la coupe : Coupe classique
+                                        Elastique de maintien aux poignets
+                                        Ceinture : Elastique de maintien à la taille
+                                            Sweatshirt</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-6 col-xl-3 mt-2">
+                    <div class="card "style="background-color: #99ccff" >
+                        <img class="card-img-top p-2" src="https://i2.cdscdn.com/pdt2/3/8/5/1/300x300/mp14806385/rw/pull-col-v-hugo-boss-homme.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title titlefont text-center">PULL COL V HUGO BOSS HOMME</h5>
+
+                            <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal8">Acheter</button>
+                            <p class="pt-2 pl-3">69€</p>
+                            <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title titlefont" id="exampleModalLabel8">PULL COL V HUGO BOSS HOMME</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>50% COTON 50% ACRYLIQUE ISSUS DE LA COLLECTION "GREEN" D'HUGO BOSS, CE PULL AUX FINITIONS RAYÉES EST COMPOSÉ D'UNE MAILLE DE COTON MÉLANGÉ OFFRANT UN CONFORT IMPARABLE. DISCRET ET CHIC CETTE PIÈCE OFFRE DES RAPPELS DE LA COLLECTION "GREEN" GRACE A Pull</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                            <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="card-deck mt-4">
+
+                <div class="col-md-6 col-xl-3 mt-2">
+                <div class="card "style="background-color: #99ccff" >
+                    <img class="card-img-top p-2" src="https://i2.cdscdn.com/pdt2/1/8/6/1/300x300/mp11030186/rw/tee-shirt-hugo-boss-homme-noir.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center titlefont">Tee shirt Hugo Boss Homme Noir</h5>
+
+                        <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal3">Acheter</button>
+                        <p class="pt-2 pl-3">39€</p>
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title titlefont" id="exampleModalLabel3">Tee shirt Hugo Boss Homme Noir </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                     <p>T-SHIRT HUGO BOSS NOIR AVEC UNE IMPRESSION SUR LA POITRINE AVEC INSCRIPTION BOSS . Qualité: 100% Coton Facile d’entretien 30 °C T-Shirt</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-md-6 col-xl-3 mt-2">
+                <div class="card "style="background-color: #99ccff" >
+                    <img class="card-img-top p-2" src="https://i2.cdscdn.com/pdt2/7/0/6/1/300x300/mp13546706/rw/sweatshirt-nike-jordan-jumpman-air-940170-010.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center titlefont">Sweatshirt Nike Jordan Jumpman Air</h5>
+
+                        <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal4">Acheter</button>
+                        <p class="pt-2 pl-3">65€</p>
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title titlefont" id="exampleModalLabel4">Sweatshirt Nike Jordan Jumpman Air</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Sweatshirt Nike Jordan Jumpman Air. Le sweatshirt Nike Jordan Jumpman Air arbore des détails caractéristiques sur un tissu Fleece doux pour vous garder au chaud et à l'aise. Coupe standard qui épouse les formes du corps avec un supplément d'espace où vous en avez le plus besoin. Manches raglan pour Sweatshirt</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-md-6 col-xl-3 mt-2">
+                <div class="card" style="background-color: #99ccff" >
+                    <img class="card-img-top p-2" src="https://i2.cdscdn.com/pdt2/4/3/0/1/300x300/mp11514430/rw/t-shirt-calvin-klein-homme-slim-fit-noir.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center titlefont">T SHIRT CALVIN KLEIN HOMME Slim</h5>
+
+                        <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal5">Acheter</button>
+                        <p class="pt-2 pl-3">25€</p>
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title titlefont" id="exampleModalLabel5">T SHIRT CALVIN KLEIN HOMME Slim</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p>T shirt calvin klein j30j305660 tonus 112 blanc CALVIN KLEIN blanc T-shirt Calvin Klein - Col rond - Coupe ajustée - Print Calvin Klein Composition : 95% coton, 05% elasthanne A noter : lavage à l'envers et à 30° conseillé Col: Rond Calvin Klein</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-6 col-xl-3 mt-2">
+                    <div class="card "style="background-color: #99ccff" >
+                        <img class="card-img-top p-2" src="https://i2.cdscdn.com/pdt2/9/1/3/1/300x300/mp12880913/rw/bmw-blouson-homme-col-montant-veste-homme-couleur.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center titlefont">BMW Veste Homme noir et bleu</h5>
+
+                            <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal6">Acheter</button>
+                            <p class="pt-2 pl-3">45€</p>
+                            <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title titlefont" id="exampleModalLabel6">BMW Veste Homme noir et bleu</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Veste de printemps à manches longues, patte zippée, col rabattu, matériel : coton, style décontracté, la doublure en coton. Parka</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                            <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+<footer class="rounded-top" style="background-color: #1a8cff">
+
+    <div class=" pt-4 footerFont">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <ul>
+                        <li><a class="afooter text-light" href="#">Outils</a></li>
+                        <li class="mt-3"><a class="afooter text-light" href="#">Musique</a></li>
+                        <li class="mt-3"><a class="afooter text-light" href="#">Jardinage</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <ul>
+                        <li><a class="afooter text-light" href="#">Informatique</a></li>
+                        <li class="mt-3"><a class="afooter text-light" href="#">Auto/Moto</a></li>
+                        <li class="mt-3"><a class="afooter text-light" href="#">Vêtements</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <ul>
+                        <li>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg">Contact</button>
+                            <div class="modal fade bd-example-modal-lg" id="modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <h1 class="text-center pt-3">Contact</h1>
+
+
+                                        <form class="p-4">
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Email address</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">Example textarea</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary float-right">Envoyer</button>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="pt-1"><a class="afooter text-light" href="#">Mentions légales</a></li>
+
+                        <img class="navbar-brand" src="rs/logo.png" style="width: 22%; height: 20%" alt="nav"><small>™ Bazar land</small>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
