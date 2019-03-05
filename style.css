@@ -7,10 +7,13 @@ a:hover { text-decoration: none; color: dodgerblue}
 
 .h1index { font-size: 46px}
 .backgrounsection { background-color: #1a8cff }
+.backgrounsectioncolor { background-color: #99ccff}
 .h1categorie {color: black; padding-top: 130px;}
 .imglogomedia { height: 70%; }
 .footercolor { background-color: #1a8cff }
 .imglogofooter { width: 22%; height: 20%}
+
+.titlefont { font-size: 13px;}
 
 
 .nav-item{
