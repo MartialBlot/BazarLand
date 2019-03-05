@@ -14,9 +14,8 @@ a:hover { text-decoration: none; color: dodgerblue}
 .footercolor { background-color: #1a8cff }
 .imglogofooter { width: 22%; height: 20%}
 
-
 .nav-item{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 @media screen and (min-width: 200px) and (max-width: 800px){
