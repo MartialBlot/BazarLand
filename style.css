@@ -13,6 +13,10 @@ a:hover { text-decoration: none; color: dodgerblue}
 .backgrounsection { background-color: #1a8cff }
 .menu{background-color: #6ba3ff}
 .cardColor{background-color: #99ccff}
+.cardColor:hover {
+    cursor: pointer;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
 .h1categorie { font-size:49px; color: black; padding-top: 100px; text-shadow: black 2px 2px, black -2px 2px,black -2px -2px, black 2px -2px;}
 .imglogomedia { height: 70%; }
 .footercolor { background-color: #1a8cff }
