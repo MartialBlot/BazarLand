@@ -6,13 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="stylePg1.css" />
-    <title>Outils - BazarLand</title>
+    <title>Jardinage - BazarLand</title>
     <link rel="icon" type="image/png" href="favicon-32.png" />
   </head>
   <body>
 
         <style>
-                
+                li { list-style: none ; }
+                .carousel { font-family: nancy; }
+                .carouselp { font-size: 32px; }
+                .carousel-caption {
+                    bottom: 3rem;
+                    z-index: 10;
+                }
+                .carousel-item {
+                    height: 32rem;
+                }
+                .carousel-item > img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    min-width: 100%;
+                    height: 32rem;
+                }
             </style>
             
             <header>
@@ -49,26 +65,26 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="img-fluid" src="https://www.c-macredence.com/uploads/images/produits/credences/C210/C210_FH.jpg" alt="image">
+                                <img class="img-fluid" src="rs/jardinagecarousel1.jpg" alt="image">
                                 <div class="container">
                                     <div class="carousel-caption text-center">
-                                        <p class="carouselp ">Gandalf is very good bro, hey yep<br>Please help im co find in ring</p>
+                                        <p class="carouselp ">Cultivez le plus beau des jardins grâce à nos outils !</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid" src="https://www.c-macredence.com/uploads/images/produits/credences/C210/C210_FH.jpg" alt="image">
+                                <img class="img-fluid" src="rs/jardinagecarousel2.jpg" alt="image">
                                 <div class="container">
                                     <div class="carousel-caption text-center">
-                                        <p class="carouselp">Sauron is very good bro, sorry man<br>Please help im co find in ring</p>
+                                        <p class="carouselp"></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid" src="https://www.c-macredence.com/uploads/images/produits/credences/C210/C210_FH.jpg" alt="image">
+                                <img class="img-fluid" src="rs/jardinagecarousel3.jpg" alt="image">
                                 <div class="container">
                                     <div class="carousel-caption text-center">
-                                        <p class="carouselp">Will is very good bro,<br>Please help im co find in ring</p>
+                                        <p class="carouselp">Vous n'avez pas la main verte ? Nos experts sont là pour répondre à vos questions !</p>
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +98,6 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                
     <div class="container-fluid bg-light">
         <div class="row">
             <div class="col-md-2 col-xs-12 border-right rounded-right" style="background-color: #6ba3ff">
@@ -90,7 +105,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title mt-4 ml-2 pt-4">
-                                <a data-toggle="collapse" data-parent="#accordion" href="/index.html" class="text-light"><span class="glyphicon glyphicon-folder-close">
+                                <a data-toggle="collapse" data-parent="#accordion" href="index.html" class="text-light"><span class="glyphicon glyphicon-folder-close">
                                 </span>Accueil</a>
                             </h4>
                         </div>
@@ -154,29 +169,60 @@
                                 </span>À propos</a>
                             </h4>
                         </div>
-                        </div>
                     </div>
                 </div>
+            </div>
             <div class="col-10 mb-4">
                     <div class="card-deck mt-4">
+                            <div class="col-md-6 col-xl-3 mt-2">
+                                    <div class="card "style="background-color: #99ccff" >
+                                          <img class="card-img-top p-2" src="rs/bonsai.jpg" alt="Card image cap">
+                                          <div class="card-body">
+                                            <h5 class="card-title text-center">Bonsaï</h5>
+                                           
+                                            <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal7">Acheter</button>
+                                            <p class="pt-2 pl-3">23,99€</p>
+                                            <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                      <div class="modal-content">
+                                                        <div class="modal-header">
+                                                          <h5 class="modal-title" id="exampleModalLabel7">Bonsaï</h5>
+                                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                          </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                          Avec cet arbre bonsaï Ficus Tokyo, c’est une véritable invitation vers le pays du soleil levant. La forme si particulière de cette plante rappellera les jardins zen du pays, participant ainsi à la création d’un atmosphère calme & reposant dans votre maison. En plus de ses vertus bienfaisantes, le bonsaï Ficus Ginseng Tokyo apportera également une touche de naturelle & de légèreté dans votre maison. Disposez-le directement au milieu d’une table ou d’un petit buffet et profitez-en tout le long de la journée.  
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                                          <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                        <div class="col-md-6 col-xl-3 mt-2">
                             <div class="card" style="background-color: #99ccff">
-                              <img class="card-img-top p-2" src="rs/outil-serrage-ecrou.jpg" alt="Card image cap">
+                              <img class="card-img-top p-2" src="rs/secateur.jpg" alt="Card image cap">
                               <div class="card-body">
-                                <h5 class="card-title text-center">Outil de serrage</h5>
+                                <h5 class="card-title text-center">Sécateur</h5>
                                
                                 <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal">Acheter</button>
-                                <p class="pt-2 pl-3">5€</p>
+                                <p class="pt-2 pl-3">3,49€</p>
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                           <div class="modal-content">
                                             <div class="modal-header">
-                                              <h5 class="modal-title" id="exampleModalLabel">Outil de serrage</h5>
+                                              <h5 class="modal-title" id="exampleModalLabel">Sécateur</h5>
                                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                               </button>
                                             </div>
                                             <div class="modal-body">
-                                                Cet outil est compris dans les trampolines (achat nécessaire uniquement pour remplacement en cas de perte).
+                                                Sécateur GrüntekBypass fonctionnel et sûr pour une utilisation dans les vergers, jardins et potagers afin de couper les jeunes pousses, vignes, fleurs (incluant les rosiers) et bois frais. Largeur d’ouverture douce pour des coupes rapides et en puissance permettant des coupes propres et sans effort. Le Sécateur Faucon, solide et maniable est  recommandé pour tous les types de coupe dans le jardin
                                             </div>
                                             <div class="modal-footer">
                                               <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
@@ -187,24 +233,26 @@
                                       </div>
                               </div>
                             </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mt-2">
                             <div class="card" style="background-color: #99ccff">
-                                    <img class="card-img-top p-2" src="rs/GU113896_6.jpg" alt="Card image cap">
+                                    <img class="card-img-top p-2" src="rs/kitoutils.jpg" alt="Card image cap">
                                     <div class="card-body">
-                                      <h5 class="card-title text-center">Perçeuse</h5>
+                                      <h5 class="card-title text-center">Kit d'outils</h5>
                                      
                                       <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal1">Acheter</button>
-                                      <p class="pt-2 pl-3">15€</p>
+                                      <p class="pt-2 pl-3">16,85€</p>
                                       <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                               <div class="modal-dialog" role="document">
                                                 <div class="modal-content">
                                                   <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel1">Perçeuse</h5>
+                                                    <h5 class="modal-title" id="exampleModalLabel1">Kit d'outils</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                       <span aria-hidden="true">&times;</span>
                                                     </button>
                                                   </div>
                                                   <div class="modal-body">
-                                                        Outil de bricolage électronique ! Réplique ultra réaliste de l'outil des grands pour les imiter lorsqu'ils bricolent ! Assortiment de 3 outils électronique.
+                                                    Contient 13 outils de jardinage de haute qualité. Il contient presque tous les outils nécessaires pour le jardinage. Comprenant les râteaux, les pelles, les cisailles, le sécateur, le désherbage et le biberon pour l'irrigation, etc. Les outils sont en acier inoxydable. Ils sont antirouille, durables, ne s'enclenchent pas facilement et sont extrêmement robustes. les ciseaux mis un verrou de sécurité vous permet d'utiliser plus sécurisé. Avec tablier et fourre-tout qui vous permet de transporter tous les outils en un seul temps, ce qui vous permet de gagner du temps et de gagner de la place.
                                                   </div>
                                                   <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
@@ -215,24 +263,26 @@
                                             </div>
                                     </div>
                                   </div>
+                                </div>
+                                <div class="col-md-6 col-xl-3 mt-2">
                                   <div class="card" style="background-color: #99ccff">
-                                        <img class="card-img-top p-2" src="rs/TGRC__28.jpg" alt="Card image cap">
+                                        <img class="card-img-top p-2" src="rs/ebrancheur.jpg" alt="Card image cap">
                                         <div class="card-body">
-                                          <h5 class="card-title text-center">Presses à vis</h5>
+                                          <h5 class="card-title text-center">Ebrancheur</h5>
                                          
                                           <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal2">Acheter</button>
-                                          <p class="pt-2 pl-3">10€</p>
+                                          <p class="pt-2 pl-3">8,69€</p>
                                           <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog" role="document">
                                                     <div class="modal-content">
                                                       <div class="modal-header">
-                                                        <h5 class="modal-title" id="exampleModalLabel2">Presses à vis</h5>
+                                                        <h5 class="modal-title" id="exampleModalLabel2">Ebrancheur</h5>
                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                           <span aria-hidden="true">&times;</span>
                                                         </button>
                                                       </div>
                                                       <div class="modal-body">
-                                                            Classiques et irremplaçables. Souvent copiées, jamais égalées, les presse à vis en fonte et acier BESSEY sont des outils de serrage aux qualités uniques.
+                                                        Le GRIZZLY est un petit élagueur à enclume affûté avec précision ; spécialement conçu pour faciliter la taille et l’élagage : améliore la qualité et la force de coupe (jusqu’à 2,2 fois plus efficace) grâce à son système de transmission. L’enclume (élément pouvant se remplacer) se règle pour mieux adapter l’angle de coupe. Outil pourvu d’un double engrenage GEAR DRIVE avec entraînement à levier : permet une coupe plus nette et plus efficace, tout en ménageant les bras des amateurs de jardinage. Facilite nettement la coupe du bois sec et l’élagage des arbres et arbustes. Lame tranchante de haute qualité en acier spécial outillage (à haute teneur en carbone), garantissant un bon affûtage et une coupe nette et précise ; munie d’un revêtement spécial anti-adhérent.
                                                       </div>
                                                       <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
@@ -244,25 +294,57 @@
                                         </div>
                                       </div>
                           </div>
+                        </div>
             <div class="card-deck mt-4">
+                    <div class="col-md-6 col-xl-3 mt-2">
+                            <div class="card "style="background-color: #99ccff" >
+                                  <img class="card-img-top p-2" src="rs/pot.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-center">Pot de fleur</h5>
+                                   
+                                    <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal8">Acheter</button>
+                                    <p class="pt-2 pl-3">9,99€</p>
+                                    <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title" id="exampleModalLabel8">Pot de fleur</h5>
+                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                  </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                  Le pot de fleur avec soucoupe de Hay est résolument pragmatique. Avec sa forme claire, il s’adapte n’importe, où un pot pratique est nécessaire. Hay fabrique le pot de fleur en PolyStone, une matière plastique qui est hydrofuge et résistante aux intempéries et le rayures. Le matériau spécial donne cette texture d’impression particulière au pot de fleurs, comme s’il était fait en pierre polie. Le pot de fleurs est livré avec une soucoupe de protection, qui protège du contact trop étroit avec le pot et le sol : afin de d’éviter la moisissure, corrosion ou la gelée. Le pot est disponible dans les tailles S-XL et les couleurs noir, gris et gris foncé.
+                                                </div>
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                                  <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                                </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                <div class="col-md-6 col-xl-3 mt-2">
                     <div class="card "style="background-color: #99ccff" >
-                            <img class="card-img-top p-2" src="rs/outil-pour-soupapes-yamaha-suzuki.jpg" alt="Card image cap">
+                            <img class="card-img-top p-2" src="rs/pelle.jpg" alt="Card image cap">
                             <div class="card-body">
-                              <h5 class="card-title text-center">Outil lève-soupape</h5>
+                              <h5 class="card-title text-center">Pelle</h5>
                              
                               <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal3">Acheter</button>
-                              <p class="pt-2 pl-3">7€</p>
+                              <p class="pt-2 pl-3">6,99€</p>
                               <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                       <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                           <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel3">Outil lève-soupape</h5>
+                                            <h5 class="modal-title" id="exampleModalLabel3">Pelle</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                               <span aria-hidden="true">&times;</span>
                                             </button>
                                           </div>
                                           <div class="modal-body">
-                                                Un outil qui vous économise beaucoup de temps et d'argent est précieux. Il en est ainsi pour cet outil lève-soupape pour différentes motos Suzuki et Yamaha. 
+                                                Un outil qui vous économise beaucoup de temps et d'argent est précieux. Il en est ainsi pour cette magnifique pelle ronde avec un manche en fibre de verre. Idéal pour tous types de sols.
                                           </div>
                                           <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
@@ -273,24 +355,26 @@
                                     </div>
                             </div>
                           </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mt-2">
                           <div class="card "style="background-color: #99ccff" >
-                                <img class="card-img-top p-2" src="rs/1-93-952.jpg" alt="Card image cap">
+                                <img class="card-img-top p-2" src="rs/hache.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                  <h5 class="card-title text-center">Sacoche à outils</h5>
+                                  <h5 class="card-title text-center">Hache</h5>
                                  
                                   <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal4">Acheter</button>
-                                  <p class="pt-2 pl-3">105€</p>
+                                  <p class="pt-2 pl-3">34,99€</p>
                                   <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                           <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel4">Sacoche à outils</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel4">Hache</h5>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                   <span aria-hidden="true">&times;</span>
                                                 </button>
                                               </div>
                                               <div class="modal-body">
-                                                    Base rigide résistante à l’eau, structure métallique, intercallaire porte-outils amovible clipsable sur ceinture pour utilisation itinérante.      
+                                                Magnfiique hachette d'entrainement. La tete de la hache est en polypropylene Manche Kraton noir. Longueur totale 40cm. Dimension tete : 21cm x 10cm Poids : 310grs
                                               </div>
                                               <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
@@ -301,122 +385,42 @@
                                         </div>
                                 </div>
                               </div>
-                              <div class="card" style="background-color: #99ccff" >
-                                    <img class="card-img-top p-2" src="rs/fourche-a-becher-acier-fiskars-manche-acier-l-121-cm.jpg" alt="Card image cap">
+                            </div>
+                            <div class="col-md-6 col-xl-3 mt-2">
+                                <div class="card" style="background-color: #99ccff" >
+                                    <img class="card-img-top p-2" src="rs/rateau.jpg" alt="Card image cap">
                                     <div class="card-body">
-                                      <h5 class="card-title text-center">Fourche</h5>
+                                      <h5 class="card-title text-center">Rateau</h5>
                                      
                                       <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal5">Acheter</button>
-                                      <p class="pt-2 pl-3">25€</p>
+                                      <p class="pt-2 pl-3">14,99€</p>
                                       <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                              <div class="modal-dialog" role="document">
+                                            <div class="modal-dialog" role="document">
                                                 <div class="modal-content">
-                                                  <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel5">Fourche</h5>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                      <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                  </div>
-                                                  <div class="modal-body">
-                                                        Tête en acier et manche soudé.
-                                                  </div>
-                                                  <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
-                                                    <button type="button" class="btn btn-primary">Ajouter au panier</button>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                    </div>
-                                  </div>
-                  </div>
-                  <div class="card-deck mt-4">
-                        <div class="card "style="background-color: #99ccff" >
-                                <img class="card-img-top p-2" src="rs/outil-multifonction-feider-400-w.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                  <h5 class="card-title text-center">Outil multifonctions</h5>
-                                 
-                                  <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal6">Acheter</button>
-                                  <p class="pt-2 pl-3">85€</p>
-                                  <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                          <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                              <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel6">Outil multifonctions</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                  <span aria-hidden="true">&times;</span>
-                                                </button>
-                                              </div>
-                                              <div class="modal-body">
-                                                    Interface Starlock : transmission optimale de la puissance, réduction des vibrations et compatibilité avec la plupart des modèles du marché.
-                                              </div>
-                                              <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
-                                                <button type="button" class="btn btn-primary">Ajouter au panier</button>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                </div>
-                              </div>
-                              <div class="card "style="background-color: #99ccff" >
-                                    <img class="card-img-top p-2" src="rs/fer-a-souder-a-gaz-multifonction-dremel-versatip.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                      <h5 class="card-title text-center">Fer à souder</h5>
-                                     
-                                      <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal7">Acheter</button>
-                                      <p class="pt-2 pl-3">75€</p>
-                                      <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                              <div class="modal-dialog" role="document">
-                                                <div class="modal-content">
-                                                  <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel7">Fer à souder</h5>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                      <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                  </div>
-                                                  <div class="modal-body">
-                                                        Encore un excellent kit complet de chez VicTsing, le fer à souder électronique de chez HOMASY.
-                                                  </div>
-                                                  <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
-                                                    <button type="button" class="btn btn-primary">Ajouter au panier</button>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                    </div>
-                                  </div>
-                                  <div class="card "style="background-color: #99ccff" >
-                                        <img class="card-img-top p-2" src="rs/61RSwgiT3jL._SY355_.jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                          <h5 class="card-title text-center">Pistolet à colle</h5>
-                                         
-                                          <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal8">Acheter</button>
-                                          <p class="pt-2 pl-3">20€</p>
-                                          <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                  <div class="modal-dialog" role="document">
-                                                    <div class="modal-content">
-                                                      <div class="modal-header">
-                                                        <h5 class="modal-title" id="exampleModalLabel8">Pistolet à colle</h5>
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel5">Rateau</h5>
                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                          <span aria-hidden="true">&times;</span>
+                                                            <span aria-hidden="true">&times;</span>
                                                         </button>
-                                                      </div>
-                                                      <div class="modal-body">
-                                                            TOPELEK Mini Pistolet à Colle Chaude 50 Bâtons, Pistolet Colle Chauffrage Rapide et Sûr.
-                                                      </div>
-                                                      <div class="modal-footer">
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Tête stable avec des dents arrondies, résistance à la déformation. La surface de revêtement en poudre le rend résistant à la rouille et facile à nettoyer. Poignée ergonomique en TPR pour moins de fatigue et plus de confort. Le trou sur la poignée facilite l'affichage et le stockage. Absolument génial pour une utilisation sur des lits surélevés, jardin.
+                                                    </div>
+                                                    <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
                                                         <button type="button" class="btn btn-primary">Ajouter au panier</button>
-                                                      </div>
                                                     </div>
-                                                  </div>
                                                 </div>
+                                            </div>
                                         </div>
+                                    </div>
                                 </div>
-                      </div>
-                    </div>
+                            </div>
+                        </div>
+                            
+                                
+                            </div>
+                        </div>
             </div>
         </div>
         <footer class="rounded-top" style="background-color: #1a8cff">
