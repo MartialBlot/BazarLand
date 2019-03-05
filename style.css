@@ -5,11 +5,15 @@ li { list-style: none ; }
 h1 a { color: white}
 a:hover { text-decoration: none; color: dodgerblue}
 
-.h1index { font-size: 46px}
+.h1index { font-size: 88px;
+    text-shadow:
+            black 2px 2px, black -2px 2px,black -2px -2px,
+            black 2px -2px;
+}
 .backgrounsection { background-color: #1a8cff }
 .menu{background-color: #6ba3ff}
 .cardColor{background-color: #99ccff}
-.h1categorie {color: black; padding-top: 130px;}
+.h1categorie { font-size:49px; color: black; padding-top: 100px; text-shadow: black 2px 2px, black -2px 2px,black -2px -2px, black 2px -2px;}
 .imglogomedia { height: 70%; }
 .footercolor { background-color: #1a8cff }
 .imglogofooter { width: 22%; height: 20%}
