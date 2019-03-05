@@ -32,9 +32,9 @@
             
             <header>
             
-                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: darkgray">
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top rounded-bottom" style="background-color: #1a8cff">
             
-                    <img class="navbar-brand img-fluid" src="https://avatars3.githubusercontent.com/u/8874047?s=200&v=4" style="width: 5%; height: 5%" alt="nav">
+                    <img class="navbar-brand img-fluid ml-5 mb-2" src="rs/logo.png" style="width: 10%; height: 5%" alt="nav">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -45,18 +45,17 @@
                             <a class="nav-item nav-link" href="/musique.html">Musique |</a>
                             <a class="nav-item nav-link" href="/jardinage">Jardinage |</a>
                             <a class="nav-item nav-link" href="/informatique.html">Informatique |</a>
-                            <a class="nav-item nav-link" href="/auto-moto">Auto/Moto</a>
+                            <a class="nav-item nav-link" href="/auto-moto">Auto/Moto |</a>
                             <a class="nav-item nav-link" href="/vetement">Vetements</a>
             
-                            <a class="nav-item nav-link" data-toggle="modal" data-target="#modal-lg">Contact</a>
+                            <a class="nav-item nav-link text-dark" data-toggle="modal" data-target="#modal-lg">Contact</a>
             
                         </div>
                     </div>
                 </nav>
             </header>
             
-            <div class="row">
-                <div class="col-md-12">
+            
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -98,16 +97,15 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                </div>
-            </div>
-    <div class="container-fluid bg-secondary">
+                
+    <div class="container-fluid bg-light">
         <div class="row">
-            <div class="col-md-2 col-xs-12 bg-warning">
+            <div class="col-md-2 col-xs-12 border-right rounded-right" style="background-color: #99ccff">
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title mt-4 ml-2">
-                                <a data-toggle="collapse" data-parent="#accordion" href="/index.html"><span class="glyphicon glyphicon-folder-close">
+                                <a data-toggle="collapse" data-parent="#accordion" href="/index.html" class="text-dark"><span class="glyphicon glyphicon-folder-close">
                                 </span>🏠 Menu</a>
                             </h4>
                         </div>
@@ -115,51 +113,51 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title ml-2">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-th">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="text-dark"><span class="glyphicon glyphicon-th">
                                 </span>★ Catégories</a>
                             </h4>
-                        </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <a href="">Outils</a>
+                                            <a href="" class="text-dark"> Outils</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="">Musique</a>
+                                            <a href="" class="text-dark">Musique</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="">Jadinage</a>
+                                            <a href="" class="text-dark">Jadinage</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="">Informatique</a>
+                                            <a href="" class="text-dark">Informatique</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="">Auto/Moto</a>
+                                            <a href="" class="text-dark">Auto/Moto</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="">Vêtements</a>
+                                            <a href="" class="text-dark">Vêtements</a>
                                         </td>
                                     </tr>
                                 </table>
                             </div>
                         </div>
                     </div>
+                    </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title ml-2">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-user">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="text-dark"><span class="glyphicon glyphicon-user">
                                 </span>€ Panier</a>
                             </h4>
                         </div>
@@ -167,7 +165,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title ml-2">
-                                <a data-toggle="collapse" data-parent="#accordion" href="/index.html"><span class="glyphicon glyphicon-user">
+                                <a data-toggle="collapse" data-parent="#accordion" href="/index.html" class="text-dark"><span class="glyphicon glyphicon-user">
                                 </span>☎ À propos</a>
                             </h4>
                         </div>
@@ -176,274 +174,283 @@
                 </div>
             <div class="col-10 mb-4">
                     <div class="card-deck mt-4">
-                            <div class="card bg-info">
-                              <img class="card-img-top p-2" src="..." alt="Card image cap">
+                            <div class="card" style="background-color: #99ccff">
+                              <img class="card-img-top p-2" src="rs/outil-serrage-ecrou.jpg" alt="Card image cap">
                               <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Velemen quidem secreto membrorum sufficiens retinere permissa est. ideoque carnifex nefas admisisse convictus inmane, vivus exustus est.</p>
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Acheter</button>
+                                <h5 class="card-title text-center">Outil de serrage</h5>
+                               
+                                <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal">Acheter</button>
+                                <p class="pt-2 pl-3">5€</p>
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                           <div class="modal-content">
                                             <div class="modal-header">
-                                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                              <h5 class="modal-title" id="exampleModalLabel">Outil de serrage</h5>
                                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                               </button>
                                             </div>
                                             <div class="modal-body">
-                                              ...
+                                                Cet outil est compris dans les trampolines (achat nécessaire uniquement pour remplacement en cas de perte).
                                             </div>
                                             <div class="modal-footer">
-                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              <button type="button" class="btn btn-primary">Save changes</button>
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                              <button type="button" class="btn btn-primary">Ajouter au panier</button>
                                             </div>
                                           </div>
                                         </div>
                                       </div>
                               </div>
                             </div>
-                            <div class="card bg-info">
-                              <img class="card-img-top p-2" src="..." alt="Card image cap">
-                              <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Velemen quidem secreto membrorum sufficiens retinere permissa est. ideoque carnifex nefas admisisse convictus inmane, vivus exustus est.</p>
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Acheter</button>
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                          <div class="modal-content">
-                                            <div class="modal-header">
-                                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                              </button>
+                            <div class="card" style="background-color: #99ccff">
+                                    <img class="card-img-top p-2" src="rs/GU113896_6.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title text-center">Perçeuse</h5>
+                                     
+                                      <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal1">Acheter</button>
+                                      <p class="pt-2 pl-3">15€</p>
+                                      <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel1">Perçeuse</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                        Outil de bricolage électronique ! Réplique ultra réaliste de l'outil des grands pour les imiter lorsqu'ils bricolent ! Assortiment de 3 outils électronique.
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                                    <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                                  </div>
+                                                </div>
+                                              </div>
                                             </div>
-                                            <div class="modal-body">
-                                              ...
-                                            </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                          </div>
+                                    </div>
+                                  </div>
+                                  <div class="card" style="background-color: #99ccff">
+                                        <img class="card-img-top p-2" src="rs/TGRC__28.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h5 class="card-title text-center">Presses à vis</h5>
+                                         
+                                          <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal2">Acheter</button>
+                                          <p class="pt-2 pl-3">10€</p>
+                                          <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                  <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel2">Presses à vis</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                          <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                            Classiques et irremplaçables. Souvent copiées, jamais égalées, les presse à vis en fonte et acier BESSEY sont des outils de serrage aux qualités uniques.
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                         </div>
                                       </div>
-                              </div>
-                            </div>
-                            <div class="card bg-info">
-                              <img class="card-img-top p-2" src="..." alt="Card image cap">
-                              <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Velemen quidem secreto membrorum sufficiens retinere permissa est. ideoque carnifex nefas admisisse convictus inmane, vivus exustus est.</p>
-                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Acheter</button>
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                          <div class="modal-content">
-                                            <div class="modal-header">
-                                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                              </button>
-                                            </div>
-                                            <div class="modal-body">
-                                              ...
-                                            </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                              </div>
-                            </div>
                           </div>
             <div class="card-deck mt-4">
-                    <div class="card bg-info">
-                      <img class="card-img-top p-2" src="..." alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Velemen quidem secreto membrorum sufficiens retinere permissa est. ideoque carnifex nefas admisisse convictus inmane, vivus exustus est.</p>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Acheter</button>
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                          <div class="modal-content">
-                                            <div class="modal-header">
-                                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                              </button>
-                                            </div>
-                                            <div class="modal-body">
-                                              ...
-                                            </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
+                    <div class="card "style="background-color: #99ccff" >
+                            <img class="card-img-top p-2" src="rs/outil-pour-soupapes-yamaha-suzuki.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Outil lève-soupape</h5>
+                             
+                              <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal3">Acheter</button>
+                              <p class="pt-2 pl-3">7€</p>
+                              <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel3">Outil lève-soupape</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                                Un outil qui vous économise beaucoup de temps et d'argent est précieux. Il en est ainsi pour cet outil lève-soupape pour différentes motos Suzuki et Yamaha. 
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                            <button type="button" class="btn btn-primary">Ajouter au panier</button>
                                           </div>
                                         </div>
                                       </div>
-                      </div>
-                    </div>
-                    <div class="card bg-info">
-                      <img class="card-img-top p-2" src="..." alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Velemen quidem secreto membrorum sufficiens retinere permissa est. ideoque carnifex nefas admisisse convictus inmane, vivus exustus est.</p>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Acheter</button>
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                          <div class="modal-content">
-                                            <div class="modal-header">
-                                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                              </button>
-                                            </div>
-                                            <div class="modal-body">
-                                              ...
-                                            </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                      </div>
-                    </div>
-                    <div class="card bg-info">
-                      <img class="card-img-top p-2" src="..." alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Velemen quidem secreto membrorum sufficiens retinere permissa est. ideoque carnifex nefas admisisse convictus inmane, vivus exustus est.</p>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Acheter</button>
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                          <div class="modal-content">
-                                            <div class="modal-header">
-                                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                              </button>
-                                            </div>
-                                            <div class="modal-body">
-                                              ...
-                                            </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                            </div>
+                          </div>
+                          <div class="card "style="background-color: #99ccff" >
+                                <img class="card-img-top p-2" src="rs/1-93-952.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">Sacoche à outils</h5>
+                                 
+                                  <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal4">Acheter</button>
+                                  <p class="pt-2 pl-3">105€</p>
+                                  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel4">Sacoche à outils</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                    Base rigide résistante à l’eau, structure métallique, intercallaire porte-outils amovible clipsable sur ceinture pour utilisation itinérante.      
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                                <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                              </div>
                                             </div>
                                           </div>
                                         </div>
-                                      </div>
-                      </div>
-                    </div>
+                                </div>
+                              </div>
+                              <div class="card" style="background-color: #99ccff" >
+                                    <img class="card-img-top p-2" src="rs/fourche-a-becher-acier-fiskars-manche-acier-l-121-cm.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title text-center">Fourche</h5>
+                                     
+                                      <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal5">Acheter</button>
+                                      <p class="pt-2 pl-3">25€</p>
+                                      <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel5">Fourche</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                        Tête en acier et manche soudé.
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                                    <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                    </div>
+                                  </div>
                   </div>
                   <div class="card-deck mt-4">
-                        <div class="card bg-info">
-                          <img class="card-img-top p-2" src="..." alt="Card image cap">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Acheter</button>
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                          <div class="modal-content">
-                                            <div class="modal-header">
-                                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                              </button>
-                                            </div>
-                                            <div class="modal-body">
-                                              ...
-                                            </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                          </div>
-                        </div>
-                        <div class="card bg-info">
-                          <img class="card-img-top p-2" src="..." alt="Card image cap">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Velemen quidem secreto membrorum sufficiens retinere permissa est. ideoque carnifex nefas admisisse convictus inmane, vivus exustus est.</p>
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Acheter</button>
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                          <div class="modal-content">
-                                            <div class="modal-header">
-                                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                              </button>
-                                            </div>
-                                            <div class="modal-body">
-                                              ...
-                                            </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              <button type="button" class="btn btn-primary">Save changes</button>
+                        <div class="card "style="background-color: #99ccff" >
+                                <img class="card-img-top p-2" src="rs/outil-multifonction-feider-400-w.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">Outil multifonctions</h5>
+                                 
+                                  <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal6">Acheter</button>
+                                  <p class="pt-2 pl-3">85€</p>
+                                  <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel6">Outil multifonctions</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                    Interface Starlock : transmission optimale de la puissance, réduction des vibrations et compatibilité avec la plupart des modèles du marché.
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                                <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                              </div>
                                             </div>
                                           </div>
                                         </div>
-                                      </div>
-                          </div>
-                        </div>
-                        <div class="card bg-info">
-                          <img class="card-img-top p-2" src="..." alt="Card image cap">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Velemen quidem secreto membrorum sufficiens retinere permissa est. ideoque carnifex nefas admisisse convictus inmane, vivus exustus est.</p>
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Acheter</button>
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                          <div class="modal-content">
-                                            <div class="modal-header">
-                                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                              </button>
+                                </div>
+                              </div>
+                              <div class="card "style="background-color: #99ccff" >
+                                    <img class="card-img-top p-2" src="rs/fer-a-souder-a-gaz-multifonction-dremel-versatip.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title text-center">Fer à souder</h5>
+                                     
+                                      <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal7">Acheter</button>
+                                      <p class="pt-2 pl-3">75€</p>
+                                      <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel7">Fer à souder</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                        Encore un excellent kit complet de chez VicTsing, le fer à souder électronique de chez HOMASY.
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                                    <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                                  </div>
+                                                </div>
+                                              </div>
                                             </div>
-                                            <div class="modal-body">
-                                              ...
-                                            </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                              <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                          </div>
+                                    </div>
+                                  </div>
+                                  <div class="card "style="background-color: #99ccff" >
+                                        <img class="card-img-top p-2" src="rs/61RSwgiT3jL._SY355_.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h5 class="card-title text-center">Pistolet à colle</h5>
+                                         
+                                          <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal8">Acheter</button>
+                                          <p class="pt-2 pl-3">20€</p>
+                                          <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                  <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel8">Pistolet à colle</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                          <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                            TOPELEK Mini Pistolet à Colle Chaude 50 Bâtons, Pistolet Colle Chauffrage Rapide et Sûr.
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Acheter maintenant</button>
+                                                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                         </div>
-                                      </div>
-                          </div>
-                        </div>
+                                </div>
                       </div>
                     </div>
             </div>
         </div>
-        <footer style="background-color: ghostwhite">
+        <footer class="rounded-top" style="background-color: #1a8cff">
 
-                <div class="p-4 footerFont ">
+                <div class="p-4 footerFont">
                     <div class="container pt-4">
                         <div class="row">
                             <div class="col-xs-12 col-md-6 col-lg-4">
                                 <ul>
-                                    <li><a class="afooter" href="#">Abour us</a></li>
-                                    <li class="mt-3"><a class="afooter" href="#">Felloww</a></li>
-                                    <li class="mt-3"><a class="afooter" href="#">Join our army</a></li>
+                                    <li><a class="afooter text-light" href="#">Abour us</a></li>
+                                    <li class="mt-3"><a class="afooter text-light" href="#">Felloww</a></li>
+                                    <li class="mt-3"><a class="afooter text-light" href="#">Join our army</a></li>
                                 </ul>
                             </div>
                             <div class="col-xs-12 col-md-6 col-lg-4">
                                 <ul>
-                                    <li><a class="afooter" href="#">Fac</a></li>
-                                    <li class="mt-3"><a class="afooter" href="#">Reward condition</a></li>
-                                    <li class="mt-3"><a class="afooter" href="#">Legal mention</a></li>
+                                    <li><a class="afooter text-light" href="#">Faq<a></li>
+                                    <li class="mt-3"><a class="afooter text-light" href="#">Reward condition</a></li>
+                                    <li class="mt-3"><a class="afooter text-light" href="#">Legal mention</a></li>
                                 </ul>
                             </div>
                             <div class="col-xs-12 col-md-6 col-lg-4">
@@ -473,8 +480,8 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mt-1 sectionfootera"><a href="#">Follow bim also on twitter</a></li>
-                                    <img class="navbar-brand mt-3" src="https://avatars3.githubusercontent.com/u/8874047?s=200&v=4" style="width: 20%; height: 20%" alt="nav"><small>Bazar land</small>
+                                    <li class="mt-1 sectionfootera"><a href="#" class="text-light">Follow bim also on twitter</a></li>
+                                    <img class="navbar-brand mt-3 pb-4" src="rs/logo.png" style="width: 30%; height: 20%" alt="nav"><small>™ Bazar land</small>
                                 </ul>
                             </div>
                         </div>
