@@ -33,6 +33,7 @@ a:hover { text-decoration: none; color: dodgerblue}
     .logo{
         width:18%;
     }
+    .hiddenMenu{display:none;}
 }
 @media screen and (min-width: 801px){
     .logo{
