@@ -37,6 +37,10 @@ a:hover {
 .cardColor {
     background-color: #99ccff
 }
+.backgrounsection { background-color: #1a8cff }
+.menu{background-color: #6ba3ff}
+
+.cardColorfont{background-color: #99ccff}
 
 .cardColor:hover {
     cursor: pointer;
@@ -76,11 +80,11 @@ a:hover {
     .logo {
         width: 18%;
     }
+    .hiddenMenu{display:none;}
 }
-
-@media screen and (min-width: 801px) {
-    .logo {
-        width: 7%;
+@media screen and (min-width: 801px){
+    .logo{
+        width:28%;
     }
 }
 
@@ -162,10 +166,6 @@ a:hover {
 
 .paymentWrap .paymentBtnGroup .paymentMethod .method.vishwa {
     background-image: url("http://i.imgur.com/VkiM7PL.jpg");
-}
-
-.paymentWrap .paymentBtnGroup .paymentMethod .method.ez-cash {
-    background-image: url("http://www.busbooking.lk/img/carousel/BusBooking.lk_ezCash_offer.png");
 }
 
 .paymentWrap .paymentBtnGroup .paymentMethod .method:hover {
@@ -263,8 +263,9 @@ a:hover {
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 27px;
     padding: 10px;
+    margin-top: 75px;
     background: rgba(0, 0, 0, 0.6);
 }
 
@@ -299,6 +300,7 @@ a:hover {
 }
 
 .hovereffect:hover h2 {
+    color: white;
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
     transform: translateY(0px);
