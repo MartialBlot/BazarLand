@@ -13,15 +13,20 @@ a:hover { text-decoration: none; color: dodgerblue}
 }
 .backgrounsection { background-color: #1a8cff }
 .menu{background-color: #6ba3ff}
-.cardColor{background-color: #99ccff}
+
+.cardColorfont{background-color: #99ccff}
+
 .cardColor:hover {
     cursor: pointer;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
+
+
 .h1categorie { font-size:49px; color: black; padding-top: 100px; text-shadow: black 2px 2px, black -2px 2px,black -2px -2px, black 2px -2px;}
-.imglogomedia { height: 70%; }
+.imglogomedia { height: 60%; }
 .footercolor { background-color: #1a8cff }
 .imglogofooter { width: 22%; height: 20%}
+.a-propos-media-p { font-size: 22px;}
 
 .titlefont { font-size: 13px;}
 
@@ -187,8 +192,9 @@ a:hover { text-decoration: none; color: dodgerblue}
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 27px;
     padding: 10px;
+    margin-top: 75px;
     background: rgba(0, 0, 0, 0.6);
 }
 
@@ -223,6 +229,7 @@ a:hover { text-decoration: none; color: dodgerblue}
 }
 
 .hovereffect:hover h2 {
+    color: white;
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
     transform: translateY(0px);
