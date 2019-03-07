@@ -143,6 +143,7 @@ a:hover {
 .paymentWrap .paymentBtnGroup .paymentMethod .method:hover {
     border-color: #4cd264;
     outline: none !important;
+    cursor: pointer;
 }
 .panel-title {
     display: inline;
